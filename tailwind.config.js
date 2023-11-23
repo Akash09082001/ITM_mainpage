@@ -67,7 +67,8 @@ module.exports = {
       fontFamily: {
       },
       backgroundImage: {
-        'hero-banner': "url('assets/banner-img/hero-banner.webp')",
+        'hero-banner': "url('assets/hero-img/hero-banner.webp')",
+        'hero-shape': "url('assets/hero-img/hero-shape.webp')",
         'highlight-card-animate': "url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg)",
       },
       backgroundColor:{
