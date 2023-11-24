@@ -18,20 +18,63 @@
 }
 
 
-.card-gredient{
-    background: linear-gradient(to bottom, transparent 40% , #FFFFFF 40%);
+.card-gredient {
+    background: linear-gradient(to bottom, transparent 40%, #FFFFFF 40%);
 }
 
-.bg-gray-fade{
+.bg-gray-fade {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.89) 4.58%, rgba(0, 0, 0, 0.00) 100%);
 }
 
 
-.faq-details[open] summary span svg{
+.faq-details[open] summary span svg {
     transform: rotate(180deg);
     transition: transform 0.5s ease-in-out;
 }
 
-.card-animate{
+.card-animate {
     background: url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg) scroll no-repeat 20% 70% #A91D54;
 }
+
+.program:hover .program-list {
+    display: flex;
+    background: white;
+}
+
+.program:hover .program-list li:hover .program-list-items {
+    display: flex;
+    background: white;
+}
+
+.program:hover .program-list li:hover .program-list-items li:hover .program-list-items-value {
+    display: flex;
+    background: white;
+}
+.mobile-program-details summary span svg{
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] summary span svg{
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details summary span svg{
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details[open] summary span svg{
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details div ul li .mobile-specilazation-details summary span svg{
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+.mobile-program-details[open] div ul li .mobile-occupation-details[open] div ul li .mobile-specilazation-details[open] summary span svg{
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
