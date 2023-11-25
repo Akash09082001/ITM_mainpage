@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find program</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <section id="programs" class="flex w-full">
+        <div class="mx-auto flex w-full max-w-7xl flex-col gap-5 px-5 py-8 md:py-10 lg:gap-7 lg:py-12 xl:gap-10">
+            <div id="heading" class="flex w-fit flex-col sm:items-center sm:justify-center md:mx-auto">
+                <h2 class="text-brand-red shimmer-effect2 flex w-full flex-wrap items-center justify-center text-xl font-bold sm:justify-center sm:text-2xl lg:text-5xl"
+                    id="programTitle"></h2>
+            </div>
+
+            <div class="flex w-full">
+                <aside id="mobile-filter" class="hidden w-1/4 lg:flex">
+                    <div class="flex flex-col">
+                        <div class="flex w-full flex-col gap-4 px-2 py-2">
+                            <div class="flex">
+                                <h3 class="text-brand-red text-base uppercase">Institutes</h3>
+                            </div>
+                            <div class="flex w-full">
+                                <ul class="text-brand-red flex w-full flex-col divide-y pl-5">
+                                    <li id="idm" class="flex py-2">ITM Institute of Design and Media</li>
+                                    <li id="ihm" class="flex py-2">ITM Institute of Hotel Management</li>
+                                    <li id="ihs" class="flex py-2">ITM Institute of Hotel Sciences</li>
+                                    <li id="mba" class="flex py-2">ITM Business School</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex w-full flex-col gap-4 px-2 py-2">
+                            <div class="flex">
+                                <h3 class="text-brand-red text-base uppercase">Locations</h3>
+                            </div>
+                            <div class="flex w-full">
+                                <ul class="text-brand-red flex w-full flex-col divide-y pl-5">
+                                    <li class="flex py-2">Mumbai</li>
+                                    <li class="flex py-2">Navi Mumbai</li>
+                                    <li class="flex py-2">Vadodara</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="flex w-full flex-col gap-3 px-2 lg:w-3/4">
+                    <div id="search-button" class="mx-auto w-full">
+                        <div
+                            class="relative flex h-12 w-full items-center overflow-hidden rounded-lg border border-gray-300 bg-white focus-within:shadow-lg">
+                            <div class="grid h-full w-12 place-items-center text-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </div>
+
+                            <input class="h-full w-full text-sm text-gray-700 outline-none" type="text"
+                                id="search" placeholder="Search something.." />
+                        </div>
+                    </div>
+                    <div id="programs" class="flex w-full flex-col items-center justify-start gap-2">
+                        <div id="program" class="flex w-full lg:hidden">
+                            <select class="w-full rounded-md border border-gray-300 px-2 py-3">
+                                <option value="ug">Undergraduate</option>
+                                <option value="pg">Postgraduate</option>
+                                <option value="ee">Executive Education</option>
+                                <option value="cs">Career Skills</option>
+                                <option value="stp">Short-Term Technical Programs</option>
+                            </select>
+                        </div>
+                        <div id="institute" class="flex w-full lg:hidden">
+                            <select class="w-full rounded-md border border-gray-300 px-2 py-3">
+                                <option value="ug">ITM Institute of Design and Media</option>
+                                <option value="pg">ITM Institute of Hotel Management</option>
+                                <option value="ee">ITM Institute of Hotel Sciences</option>
+                                <option value="cs">ITM Business School</option>
+                            </select>
+                        </div>
+                        <div id="location" class="flex w-full lg:hidden">
+                            <select class="w-full rounded-md border border-gray-300 px-2 py-3">
+                                <option value="ug">Mumbai</option>
+                                <option value="pg">Navi Mumbai</option>
+                                <option value="ee">Vadodara</option>
+                            </select>
+                        </div>
+                        <!-- Buttons for larger screens -->
+                        <div id="desktop-button" class="hidden w-full flex-wrap items-center justify-start gap-2 lg:flex">
+                            <button class="select-btn flex w-fit rounded-md border border-gray-300 px-2 py-2"
+                                data-id="ug">Undergraduate</button>
+                            <button class="select-btn flex w-fit rounded-md border border-gray-300 px-2 py-2"
+                                data-id="pg">Postgraduate</button>
+                            <button class="select-btn flex w-fit rounded-md border border-gray-300 px-2 py-2"
+                                data-id="ee">Executive Education</button>
+                        </div>
+                    </div>
+                    <hr />
+                    <div id="main" class="mx-auto grid w-fit grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="../find-program.js"></script>
+
+</body>
+
+</html>
