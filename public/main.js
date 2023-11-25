@@ -1,4 +1,4 @@
-import dataUrl from "./program.json" assert {type: 'json'}
+// import dataUrl from "./program.json" assert {type: 'json'}
 
 
 // menu open and close
@@ -150,3 +150,4 @@ function selectCourse(id) {
     var url = window.location.href;
     url.searchParams.append(id)
 }
+

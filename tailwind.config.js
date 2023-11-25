@@ -60,6 +60,7 @@ module.exports = {
         '2xl+': ['28px', '34px'],
         '4xl+': ['36px', '40px'],
         '5xl+': ['54px', '1'],
+        '8xl+': ['80px', '1'],
       },
       textUnderlineOffset: {
         6: '6px',
@@ -68,7 +69,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-banner-mob': "url('assets/hero-img/hero-banner-mobile.webp')",
-        'hero-banner-desk': "url('assets/hero-img/hero-banner-desktop.webp')",
+        // 'hero-banner-desk': "url('assets/hero-img/hero-banner-desktop.webp')",
+        // 'hero-banner-desk': "url('assets/hero-img/hero-banner-desktop1.webp')",
+        'hero-banner-desk': "url('assets/hero-img/Component 560.webp')",
         'highlight-card-animate': "url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg)",
       },
       backgroundColor:{
