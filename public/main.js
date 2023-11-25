@@ -1,3 +1,5 @@
+import dataUrl from "./program.json" assert {type: 'json'}
+
 
 // menu open and close
 
@@ -140,4 +142,11 @@ function closePopup() {
   var videoFrame = document.getElementById("videoFrame");
   videoFrame.src = "";
   modal.style.display = "none";
+}
+
+function selectCourse(id) {
+    console.log(id, dataUrl)
+    populateHTML(dataUrl, id);
+    var url = window.location.href;
+    url.searchParams.append(id)
 }
