@@ -1382,20 +1382,20 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.bg-highlight-card-animate {
-  background-image: url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg);
-}
-
-.bg-none {
-  background-image: none;
+.bg-hero-banner-desk {
+  background-image: url('assets/hero-img/hero-banner-desktop.webp');
 }
 
 .bg-hero-banner-mob {
   background-image: url('assets/hero-img/hero-banner-mobile.webp');
 }
 
-.bg-hero-banner-desk {
-  background-image: url('assets/hero-img/hero-banner-desktop.webp');
+.bg-highlight-card-animate {
+  background-image: url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg);
+}
+
+.bg-none {
+  background-image: none;
 }
 
 .from-transparent {
@@ -1412,8 +1412,8 @@ video {
   background-size: 200% 300%;
 }
 
-.bg-\[length\:auto_40\%\] {
-  background-size: auto 40%;
+.bg-\[length\:auto_45\%\] {
+  background-size: auto 45%;
 }
 
 .bg-contain {
@@ -1422,14 +1422,6 @@ video {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-\[length\:auto_50\%\] {
-  background-size: auto 50%;
-}
-
-.bg-\[length\:auto_45\%\] {
-  background-size: auto 45%;
 }
 
 .bg-\[left_center\] {
@@ -2162,10 +2154,6 @@ video {
     padding-bottom: 2.5rem;
   }
 
-  .md\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -2359,10 +2347,6 @@ video {
 
   .xl\:bg-hero-banner-desk {
     background-image: url('assets/hero-img/hero-banner-desktop.webp');
-  }
-
-  .xl\:bg-\[length\:auto_65\%\] {
-    background-size: auto 65%;
   }
 
   .xl\:bg-\[length\:auto_70\%\] {
