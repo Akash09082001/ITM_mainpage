@@ -1630,6 +1630,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
