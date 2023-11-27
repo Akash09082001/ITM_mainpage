@@ -1122,13 +1122,28 @@ video {
   border-collapse: collapse;
 }
 
+.-rotate-45 {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .-rotate-90 {
   --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-0 {
+  --tw-rotate: 0deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .rotate-180 {
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1585,6 +1600,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1630,11 +1650,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1657,6 +1672,10 @@ video {
 
 .pb-40 {
   padding-bottom: 10rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .pl-3 {
@@ -1695,10 +1714,6 @@ video {
   padding-top: 2rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1724,11 +1739,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-4xl\+ {
-  font-size: 36px;
-  line-height: 40px;
 }
 
 .text-5xl {
@@ -1774,11 +1784,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-5xl\+ {
-  font-size: 54px;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1998,14 +2003,30 @@ video {
   background: url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg) scroll no-repeat 20% 70% #A91D54;
 }
 
+.program a svg{
+  rotate: 0deg;
+}
+
+.program:hover a svg{
+  rotate: 180deg;
+}
+
 .program:hover .program-list {
   display: flex;
   background: white;
 }
 
+.program:hover .program-list li:hover a svg{
+  rotate: 0deg;
+}
+
 .program:hover .program-list li:hover .program-list-items {
   display: flex;
   background: white;
+}
+
+.program:hover .program-list li:hover .program-list-items li:hover a svg{
+  rotate: 180deg;
 }
 
 .program:hover .program-list li:hover .program-list-items li:hover .program-list-items-value {
@@ -2104,16 +2125,6 @@ video {
   bottom: 0px;
 }
 
-.group:hover .group-hover\:-rotate-90 {
-  --tw-rotate: -90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:rotate-180 {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .group:hover .group-hover\:rotate-90 {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2143,16 +2154,16 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:items-center {
     align-items: center;
   }
 
   .sm\:justify-center {
     justify-content: center;
-  }
-
-  .sm\:text-center {
-    text-align: center;
   }
 
   .sm\:text-2xl {
@@ -2293,8 +2304,8 @@ video {
     width: 75%;
   }
 
-  .lg\:max-w-xl {
-    max-width: 36rem;
+  .lg\:max-w-2xl {
+    max-width: 42rem;
   }
 
   .lg\:grid-cols-1 {
@@ -2331,6 +2342,10 @@ video {
 
   .lg\:gap-9 {
     gap: 2.25rem;
+  }
+
+  .lg\:overflow-visible {
+    overflow: visible;
   }
 
   .lg\:rounded-full {
@@ -2450,6 +2465,10 @@ video {
 
   .xl\:bg-\[length\:auto_75\%\] {
     background-size: auto 75%;
+  }
+
+  .xl\:bg-\[bottom_center\] {
+    background-position: bottom center;
   }
 
   .xl\:object-bottom {

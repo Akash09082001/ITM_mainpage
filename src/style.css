@@ -35,15 +35,27 @@
 .card-animate {
     background: url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg) scroll no-repeat 20% 70% #A91D54;
 }
-
+.program a svg{
+    rotate: 0deg;
+}
+.program:hover a svg{
+    rotate: 180deg;
+}
 .program:hover .program-list {
     display: flex;
     background: white;
+}
+.program:hover .program-list li:hover a svg{
+    rotate: 0deg;
 }
 
 .program:hover .program-list li:hover .program-list-items {
     display: flex;
     background: white;
+}
+.program:hover .program-list li:hover .program-list-items li:hover a svg{
+    rotate: 180deg;
+
 }
 
 .program:hover .program-list li:hover .program-list-items li:hover .program-list-items-value {
