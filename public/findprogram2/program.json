@@ -1,0 +1,272 @@
+[
+    {
+        "id": "ug",
+        "title":"Undergraduate Programs",
+        "data": [
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Science Honours in Digital Film Making and VFX",
+                "location": "Navi Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-science-honours-in-digital-film-making-and-vfx"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Design in UX Design",
+                "location": "Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-design-in-ux-design/"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "IDM Bachelor of Science Honours in Game Design and Development",
+                "location": "Navi Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-science-honours-in-game-design-and-development"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Design in Interior Design",
+                "location": "Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-design-in-interior-design/"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Science Honours in Animation & VFX",
+                "location": "Navi Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-science-honours-in-animation-vfx"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Design in Animation and VFX",
+                "location": "Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-design-in-animation-and-vfx/"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Design in Visual Communication",
+                "location": "Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-design-in-visual-communication/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihm",
+                "title": "Bachelor of Science in Hospitality Studies",
+                "location": "Mumbai, Navi Mumbai",
+                "duration": "3 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihm-bachelor-of-science-in-hospitality-studies/"
+            },
+            {
+                "priority": 0,
+                "institute": "idm",
+                "title": "Bachelor of Design in Fashion Design",
+                "location": "Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/idm-bachelor-of-design-in-fashion-design/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihs",
+                "title": "Bachelor of Optometry",
+                "location": "Navi Mumbai, Vadodara",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihs-bachelor-of-optometry/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihm",
+                "title": "Bachelor of Arts in International Culinary Arts",
+                "location": "Navi Mumbai, Mumbai",
+                "duration": "3 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihm-bachelor-of-arts-in-international-culinary-arts/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihm",
+                "title": "Diploma in Patisserie and Confectionery",
+                "location": "Mumbai, Navi Mumbai",
+                "duration": "1 Years",
+                "type": "Part-Time",
+                "pUrl": "https://www.itm.edu/ihm-grand-diploma-in-patisserie-and-confectionery/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihm",
+                "title": "Bachelor of Arts in Culinary Arts",
+                "location": "Mumbai, Navi Mumbai",
+                "duration": "3 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihm-ba-in-culinary-arts/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihm",
+                "title": "Bachelor of Arts in International Hospitality & Tourism Management",
+                "location": "Navi Mumbai, Mumbai",
+                "duration": "3 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihm-bachelor-of-arts-in-international-hospitality-tourism-management/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihs",
+                "title": "Basic Bachelor of Science in Nursing",
+                "location": "Mumbai, Navi Mumbai",
+                "duration": "4 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihs-basic-bachelor-of-science-in-nursing/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihs",
+                "title": "Bachelors Of Science in Medical Lab Technology",
+                "location": "Navi Mumbai, Vadodara",
+                "duration": "3 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihs-bachelors-of-science-in-medical-lab-technology/"
+            }
+        ]
+    },
+    {
+        "id": "pg",
+        "title":"Postgraduate Programs",
+        "data": [
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Finance",
+                "location": "Navi Mumbai, Raipur, Vadodara",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-finance/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Marketing",
+                "location": "Navi Mumbai, Vadodara, Raipur",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-marketing/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Human Resource Management",
+                "location": "Navi Mumbai,Vadodara, Raipur",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-human-resource-management/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Retail Management & Marketing",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-retail-management-marketing/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Business Analytics",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-business-analytics/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Financial Markets",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-financial-markets/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect International Business",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-international-business/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Digital Marketing & Transformation",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-digital-marketing-transformation/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect Operations & Supply Chain Management",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-operations-supply-chain-management/"
+            },
+            {
+                "priority": 0,
+                "institute": "mba",
+                "title": "MBA iConnect FinTech",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/pgdm-post-graduate-diploma-in-management-financial-technology/"
+            },
+            {
+                "priority": 0,
+                "institute": "ihs",
+                "title": "Masters of Optometry",
+                "location": "Navi Mumbai",
+                "duration": "2 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihs-masters-of-optometry/"
+            }
+        ]
+    },
+    {
+        "id": "ee",
+        "title":"Executive Education Programs",
+        "data": [
+            {
+                "priority": 0,
+                "institute": "ihm",
+                "title": "Queen Margaret University",
+                "location": "",
+                "duration": "1 Years",
+                "type": "Full-Time",
+                "pUrl": "https://www.itm.edu/ihm-queen-margaret-university"
+            }
+        ]
+    }
+]

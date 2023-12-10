@@ -9,14 +9,14 @@ const closeButton = document.getElementById("close");
 
 // open menu
 function openMenu() {
-  mobileMenu.style.display = "flex";
-  openButton.style.display = "none";
-  closeButton.style.display = "block";
+    mobileMenu.style.display = "flex";
+    openButton.style.display = "none";
+    closeButton.style.display = "block";
 }
 function closeMenu() {
-  mobileMenu.style.display = "none";
-  openButton.style.display = "block";
-  closeButton.style.display = "none";
+    mobileMenu.style.display = "none";
+    openButton.style.display = "block";
+    closeButton.style.display = "none";
 }
 
 
@@ -130,19 +130,19 @@ function showData(itmStories) {
 //  Video popup  code
 var player;
 
+const modal = document.getElementById("popup");
+const videoFrame = document.getElementById("videoFrame");
+
 function openPopup(videoId) {
-  var modal = document.getElementById("popup");
-  var videoFrame = document.getElementById("videoFrame");
-  videoFrame.src = "https://www.youtube.com/embed/" + videoId;
-  modal.style.display = "block";
+    videoFrame.src = "https://www.youtube.com/embed/" + videoId;
+    modal.style.display = "block";
 }
 
 function closePopup() {
-  var modal = document.getElementById("popup");
-  var videoFrame = document.getElementById("videoFrame");
-  videoFrame.src = "";
-  modal.style.display = "none";
+    videoFrame.src = "";
+    modal.style.display = "none";
 }
+
 
 function selectCourse(id) {
     console.log(id, dataUrl)
@@ -151,3 +151,58 @@ function selectCourse(id) {
     url.searchParams.append(id)
 }
 
+
+
+const enquireContainer = document.querySelector('#enquireContainer');
+const formContainer = document.getElementById("formContainer");
+const forms = document.querySelectorAll('#form-container form');
+const buttonsContainer = document.getElementById("buttonsContainer");
+
+function openEnquire() {
+    enquireContainer.style.display = "flex";
+    formContainer.style.display= "none";
+}
+
+function closeEnquire() {
+    enquireContainer.style.display = "none";
+    forms.forEach(form => {
+        form.style.display = "none";
+    });
+    buttonsContainer.style.display = "flex";
+}
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        enquireContainer.style.display = "none";
+    }
+});
+
+function showForm(btnId) {
+
+    formContainer.style.display = "flex";
+    buttonsContainer.style.display = 'none';
+
+    const forms = document.querySelectorAll('.form-container .form');
+    forms.forEach(form => {
+        form.style.display = 'none';
+    });
+
+    const formToShow = document.querySelector(`.form-container .form[data-form="${btnId}"]`);
+    if (formToShow) {
+        formToShow.style.display = 'flex';
+        formToShow.style.flexDirection = 'column';
+    } else {
+        console.error(`Form with data-form="${btnId}" not found.`);
+    }
+}
+
+
+function goBack() {
+    forms.forEach(form => {
+        form.style.display = 'none';
+    });
+
+    buttonsContainer.style.display = 'flex';
+    formContainer.style.display = 'none';
+
+}

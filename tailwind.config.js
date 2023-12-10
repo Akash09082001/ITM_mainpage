@@ -52,6 +52,9 @@ module.exports = {
       height:{
         '13' :'50px'
       },
+      maxHeight: {
+        'program-screen': '1000px',
+      },
       aspectRatio: {
         '16/9': '960 / 540',
         '4/3': '640 / 480',
@@ -68,10 +71,10 @@ module.exports = {
       fontFamily: {
       },
       backgroundImage: {
-        'hero-banner-mob': "url('assets/hero-img/hero-banner-mobile.webp')",
+        'hero-banner-mob': "url('assets/hero-img/hero-img-mob.webp')",
         // 'hero-banner-desk': "url('assets/hero-img/hero-banner-desktop.webp')",
         // 'hero-banner-desk': "url('assets/hero-img/hero-banner-desktop1.webp')",
-        'hero-banner-desk': "url('assets/hero-img/Component 560.webp')",
+        'hero-banner-desk': "url('assets/hero-img/hero-img-desk.webp')",
         'highlight-card-animate': "url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg)",
       },
       backgroundColor:{
